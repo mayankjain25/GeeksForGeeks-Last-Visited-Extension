@@ -41,3 +41,7 @@ This project is licensed under the [MIT License](LICENSE).
 ## Author
 
 [Mayank Jain](https://mayankjain25.netlify.app)
+
+## Disclaimer
+
+Please note that the use of the GeeksforGeeks name and logo in this extension is purely for informational and illustrative purposes. This extension is not affiliated with, endorsed by, or sponsored by GeeksforGeeks. The GeeksforGeeks name and logo are registered trademarks of GeeksforGeeks, and their use here does not imply any infringement upon those trademarks.
