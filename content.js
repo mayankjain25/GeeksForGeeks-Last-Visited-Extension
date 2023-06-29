@@ -27,3 +27,18 @@ chrome.storage.local.get(currentUrl, (result) => {
   const currentTime = new Date().toLocaleString();
   chrome.storage.local.set({ [currentUrl]: currentTime });
 });
+
+document.addEventListener('keydown', (event) => {
+  // Check if Ctrl + ' key is pressed
+  if (event.ctrlKey && event.key === "'") {
+    const compileButton = document.querySelector('.problems_compile_button__Lfluz');
+    compileButton.click();
+  }
+
+  // Check if Ctrl key is pressed and Enter key is pressed without any modifiers
+  if (event.ctrlKey && event.key === 'Enter' && !event.shiftKey && !event.altKey && !event.metaKey) {
+    // console.log('world');
+    const submitButton = document.querySelector('.problems_submit_button__6QoNQ')
+    submitButton.click()
+  }
+});
