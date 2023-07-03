@@ -13,6 +13,7 @@ chrome.storage.local.get(currentUrl, (result) => {
 
    // Create a span element for the last visit time
    const lastVisitElement = document.createElement('span');
+   articleTitleElement.appendChild(document.createElement('br'));
    lastVisitElement.innerText = `    Last Visited: ${lastVisitTime || 'First Visit'}`;
    lastVisitElement.style.fontSize = '14px';
    lastVisitElement.style.color = 'red';
