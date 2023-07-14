@@ -61,6 +61,11 @@ document.addEventListener('keydown', (event) => {
   // Check if Ctrl + ' key is pressed
   if (event.ctrlKey && event.key === "'") {
     const compileButton = document.querySelector('.problems_compile_button__Lfluz');
+    const compileButtonCodeStudio = document.querySelector('.run-code-btn')
+
+    if(compileButtonCodeStudio){
+      compileButtonCodeStudio.click()
+    }
     compileButton.click();
   }
 
@@ -69,5 +74,14 @@ document.addEventListener('keydown', (event) => {
     // console.log('world');
     const submitButton = document.querySelector('.problems_submit_button__6QoNQ')
     submitButton.click()
+  }
+  
+  if(event.ctrlKey && event.shiftKey && !event.altKey && !event.metaKey && !(event.key === 'Enter')){
+    
+    const submitButtonCodeStudio = document.querySelector('.zen-primary-cta')
+    console.log(submitButtonCodeStudio)
+    if(submitButtonCodeStudio){
+      submitButtonCodeStudio.click()
+    }
   }
 });

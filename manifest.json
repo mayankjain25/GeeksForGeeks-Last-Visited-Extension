@@ -7,11 +7,13 @@
     "tabs",
     "storage",
     "http://*.geeksforgeeks.org/*",
-    "https://*.geeksforgeeks.org/*"
+    "https://*.geeksforgeeks.org/*",
+    "http://*.codingninjas.com/*",
+    "https://*.codingninjas.com/*"
   ],
   "content_scripts": [
     {
-      "matches": ["https://*.geeksforgeeks.org/*"],
+      "matches": ["https://*.geeksforgeeks.org/*", "https://*.codingninjas.com/*"],
       "js": ["content.js"]
     }
   ]
