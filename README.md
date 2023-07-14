@@ -1,6 +1,6 @@
-# GeeksforGeeks Last Visit Chrome Extension
+# GeeksforGeeks Enhancer - A Chrome Extension
 
-The GeeksforGeeks Last Visit Chrome extension is a tool that enhances your browsing experience on [GeeksForGeeks.org](https://www.geeksforgeeks.org). It adds the last visited timestamp to the article title, allowing you to easily keep track of when you last accessed a specific article. It comes in handy when you want to know whether you have already visited an article in the past or not.
+The GeeksforGeeks Enhancer Chrome extension is a tool that enhances your browsing experience on [GeeksForGeeks.org](https://www.geeksforgeeks.org). It adds the last visited timestamp to the article title, allowing you to easily keep track of when you last accessed a specific article. It comes in handy when you want to know whether you have already visited an article in the past or not. Not only this, it also enables certain keyboard shortcuts that helps you save some time running and submitting codes on [GFG Practice](https://practice.geeksforgeeks.org)
 
 ## Screenshots
 
@@ -11,6 +11,8 @@ The GeeksforGeeks Last Visit Chrome extension is a tool that enhances your brows
 - Displays the last visited timestamp on GeeksforGeeks article titles.
 - Automatically updates the timestamp whenever you revisit an article.
 - Works seamlessly on all GeeksforGeeks pages.
+- Use `Ctrl + '` shortcut to `Run Code`
+- Use `Ctrl + Enter` shortcut to `Submit Code`
 
 ## Installation
 
@@ -28,6 +30,7 @@ The GeeksforGeeks Last Visit extension will be installed and ready to use.
 1. Open any article on GeeksforGeeks.org.
 2. The extension will add a line to the article title, displaying the last visited timestamp.
 3. The timestamp will be automatically updated whenever you revisit an article.
+4. The keyboard shortcuts will be triggered on keyboard events
 
 
 ## Contributing
